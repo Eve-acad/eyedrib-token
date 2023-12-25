@@ -1,0 +1,45 @@
+<template>
+  <Sidebar v-model:visible="visible" header=" " class="bg-gray-primary" :show-close-icon="false">
+    <div class="flex flex-col items-start gap-2 px-3 text-gray-secondary mt-8 ">
+      <button>Solscan</button>
+      <button>RugChecker</button>
+      <button>Birdeye</button>
+      <button>Twitter</button>
+      <button>Telegram</button>
+    </div>
+  </Sidebar>
+
+  <div class="p-2 flex items-center text-gray-secondary justify-between">
+    <div class="flex gap-3 items-center">
+
+      <img src="@/assets/menu.svg" class="w-8 h-8 cursor-pointer lg:hidden" @click="visible = true" />
+      <img src="@/assets/birdeye.png" class="w-32 h-14" />
+    </div>
+    <div class="flex gap-4 items-center">
+      <input
+        type="text"
+        class="border outline-none border-gray-500 bg-black px-2 py-2 rounded-md hidden lg:block"
+        placeholder="Search for Tokens, Markets, Traders..."
+      />
+      <img src="@/assets/search.png" class="w-10 h-10 lg:hidden" />
+      <div class="hidden lg:block">Solscan</div>
+      <div class="hidden lg:block">RugChecker</div>
+      <div class="hidden lg:block">Birdeye</div>
+      <div class="hidden lg:block">Twitter</div>
+      <div class="hidden lg:block">Telegram</div>
+      <div class="border border-orange-primary text-orange-primary px-4 py-2 rounded-md hidden lg:block">
+        Connect Wallet
+      </div>
+      <img src="@/assets/wallet.png" class="w-10 h-10 lg:hidden" >
+      <img src="@/assets/user.png" class="w-10 h-10" />
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import Sidebar from 'primevue/sidebar'
+
+import { ref } from 'vue'
+
+const visible = ref(false)
+</script>
