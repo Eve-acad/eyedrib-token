@@ -23,7 +23,7 @@
     <img src="@/assets/dropdown.png" class="w4 h-4 mr-2" />
     <div class="text-white mr-10">-5% NICO/SOL</div>
     <img src="@/assets/dropup.png" class="w4 h-4 mr-2" />
-    <div class="text-white mr-10">+696969% MAAZ/SOL</div>
+    <div class="text-white mr-10">+696969% MALAYSIA/SOL</div>
     <img src="@/assets/dropup.png" class="w4 h-4 mr-2" />
     <div class="text-white mr-10">+1000% 100X/SOL</div>
     <img src="@/assets/dropdown.png" class="w4 h-4 mr-2" />
@@ -43,8 +43,7 @@
           <div>$0.00248883</div>
         </div>
         <div class="mt-3 mb-3">
-          eyedriB equips degen with our crypto data tracking tool across Memes & Shits on memechain, helping them seize
-          more 1000000x opportunities.
+          eyedriB equips degens with our crypto data tracking tool suite across meme & shitcoins on the Solana chain, helping them seize more 1000x opportunities.
         </div>
         <div class="flex justify-between">
           <div>Network</div>
@@ -178,14 +177,14 @@
             <img src="@/assets/dropdown.png" class="w8 h-8">
             <div class="flex flex-col gap-0.5">
               <div class="text-white">eyedriB</div>
-              <div>Launch on <span class="text-white">eyedriB</span></div>
+              <div>Launch <span class="text-white">eyedriB</span></div>
             </div>
           </div>
           <div class="flex gap-3 items-center">
             <img src="@/assets/dropdown.png" class="w8 h-8">
             <div class="flex flex-col gap-0.5">
               <div class="text-white">SBF</div>
-              <div>Stay in <span class="text-white">New york federal prison</span></div>
+              <div>Locked in <span class="text-white">New york federal prison</span></div>
             </div>
           </div>
           <div class="flex gap-3 items-center">

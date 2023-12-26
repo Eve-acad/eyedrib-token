@@ -31,8 +31,8 @@
       <a href="#" class="hover-underline">
         <div class="hidden lg:block">Twitter</div>
       </a>
-      <a href="#" class="hover-underline">
-        <div class="hidden lg:block">Rugchecker</div>
+      <a href="https://t.me/eyedriB" class="hover-underline">
+        <div class="hidden lg:block">Telegram</div>
       </a>
 
       <a class="button-scale">
