@@ -26,7 +26,7 @@
         <div class="hidden lg:block">Rugchecker</div>
       </a>
       <a href="#" class="hover-underline">
-        <div class="hidden lg:block">Birdeye</div>
+        <div class="hidden lg:block">eyedriB</div>
       </a>
       <a href="#" class="hover-underline">
         <div class="hidden lg:block">Twitter</div>

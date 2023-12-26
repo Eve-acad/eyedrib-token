@@ -43,8 +43,8 @@
           <div>$0.00248883</div>
         </div>
         <div class="mt-3 mb-3">
-          Birdeye equips traders with our crypto data tracking tool across DEXes & AMMs on multichain, helping them seize
-          more trading opportunities.
+          eyedriB equips degen with our crypto data tracking tool across Memes & Shits on memechain, helping them seize
+          more 1000000x opportunities.
         </div>
         <div class="flex justify-between">
           <div>Network</div>
