@@ -2,6 +2,7 @@
   <HeaderComponent></HeaderComponent>
 
 
+<<<<<<< HEAD
  <!--  https://www.npmjs.com/package/vue3-marquee -->
   <Vue3Marquee>
     <img src="@/assets/dropdown.png" class="w4 h-4" />
@@ -10,6 +11,40 @@
   </Vue3Marquee>
 
     
+=======
+  <!--  https://www.npmjs.com/package/vue3-marquee -->
+  <Vue3Marquee>
+    <img src="@/assets/dropdown.png" class="w4 h-4 mr-2" />
+    <div class="text-white mr-10">-14% YOO/SOL</div>
+    <img src="@/assets/dropup.png" class="w4 h-4 mr-2" />
+    <div class="text-white mr-10">+3290% PONKE/SOL</div>
+    <img src="@/assets/dropdown.png" class="w4 h-4 mr-2" />
+    <div class="text-white mr-10">-69% PEPE/SOL</div>
+    <img src="@/assets/dropdown.png" class="w4 h-4 mr-2" />
+    <div class="text-white mr-10">-18% GECKO/SOL</div>
+    <img src="@/assets/dropup.png" class="w4 h-4 mr-2" />
+    <div class="text-white mr-10">+372% GFY/SOL</div>
+    <img src="@/assets/dropdown.png" class="w4 h-4 mr-2" />
+    <div class="text-white mr-10">-12% SILLY/SOL</div>
+    <img src="@/assets/dropdown.png" class="w4 h-4 mr-2" />
+    <div class="text-white mr-10">-99% ZERO/SOL</div>
+    <img src="@/assets/dropup.png" class="w4 h-4 mr-2" />
+    <div class="text-white mr-10">+10200% LINK/SOL</div>
+    <img src="@/assets/dropdown.png" class="w4 h-4 mr-2" />
+    <div class="text-white mr-10">-5% NICO/SOL</div>
+    <img src="@/assets/dropup.png" class="w4 h-4 mr-2" />
+    <div class="text-white mr-10">+696969% MAAZ/SOL</div>
+    <img src="@/assets/dropup.png" class="w4 h-4 mr-2" />
+    <div class="text-white mr-10">+1000% 100X/SOL</div>
+    <img src="@/assets/dropdown.png" class="w4 h-4 mr-2" />
+    <div class="text-white mr-10">-11% GROK/SOL</div>
+
+
+
+  </Vue3Marquee>
+
+
+>>>>>>> master
   <div class="flex flex-col lg:flex-row text-gray-secondary flex-grow gap-3 p-2">
     <div class="flex flex-col gap-4">
       <div class="flex flex-col bg-gray-primary rounded-lg gap-2 p-2 lg:w-[300px]">
@@ -18,16 +53,26 @@
           <div>Birdeye</div>
           <div>$0.00248883</div>
         </div>
+<<<<<<< HEAD
         <div>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et dolore magna aliqua.
+=======
+        <div class="mt-3 mb-3">
+          Birdeye equips traders with our crypto data tracking tool across DEXes & AMMs on multichain, helping them seize
+          more trading opportunities.
+>>>>>>> master
         </div>
         <div class="flex justify-between">
           <div>Network</div>
           <div>SOLANA</div>
         </div>
         <div class="gray-line"></div>
+<<<<<<< HEAD
         <div>abcde</div>
+=======
+        <div>We are the unofficial eyedriB website.</div>
+>>>>>>> master
         <div class="gray-line"></div>
         <div class="flex justify-between">
           <div>Public Name</div>
@@ -54,6 +99,7 @@
           <div>1,132</div>
         </div>
         <div class="gray-line"></div>
+<<<<<<< HEAD
         <div class="flex gap-2 justify-between">
           <div class="flex items-center gap-2">
             <div>logo</div>
@@ -63,6 +109,8 @@
           </div>
           <div class="text-orange-primary">More</div>
         </div>
+=======
+>>>>>>> master
       </div>
 
       <div class="flex flex-col bg-gray-primary rounded-lg gap-2 p-2 lg:w-[300px]">
@@ -117,6 +165,7 @@
     </div>
 
     <div class="h-[500px] lg:min-h-screen w-full">
+<<<<<<< HEAD
       <div
         class="tradingview-widget-container"
         ref="container"
@@ -126,6 +175,10 @@
           class="tradingview-widget-container__widget"
           :style="{ height: 'calc(100% - 32px)', width: '100%' }"
         ></div>
+=======
+      <div class="tradingview-widget-container" ref="container" :style="{ height: '100%', width: '100%' }">
+        <div class="tradingview-widget-container__widget" :style="{ height: 'calc(100% - 32px)', width: '100%' }"></div>
+>>>>>>> master
       </div>
     </div>
 
@@ -159,11 +212,17 @@
           <div>USDC</div>
           <img src="@/assets/dropdown.png" class="w-4 h-4" />
         </div>
+<<<<<<< HEAD
         <div
           class="border text-center border-orange-primary text-orange-primary px-4 py-2 rounded-md"
         >
           Connect Wallet
         </div>
+=======
+        <center><a class="button-scale"><button class="border text-center border-orange-primary text-orange-primary px-20 py-2 rounded-md">
+          Buy $eyedriB
+        </button></a></center>
+>>>>>>> master
         <div class="text-center">Powered by Jupiter</div>
       </div>
 
@@ -181,7 +240,11 @@
       <div class="flex flex-col bg-gray-primary rounded-lg gap-2 p-2 lg:w-[300px]">
         <div class="flex justify-between items-center">
           <div>Upcoming deals</div>
+<<<<<<< HEAD
             <img src="@/assets/dropdown.png" class="w4 h-4" />
+=======
+          <img src="@/assets/dropdown.png" class="w4 h-4" />
+>>>>>>> master
         </div>
         <div class="gray-line"></div>
         <div class="flex flex-col gap-4">
@@ -211,7 +274,22 @@
     </div>
   </div>
 </template>
+<<<<<<< HEAD
 
+=======
+<style scoped>
+
+.button-scale button {
+  transition: transform 0.3s ease;
+  /* Animation duration and style */
+}
+
+.button-scale:hover button {
+  transform: scale(1.05);
+  /* Scale up by 10% on hover */
+}
+</style>
+>>>>>>> master
 <script setup lang="ts">
 import HeaderComponent from '@/components/HeaderComponent.vue'
 import { onMounted, ref } from 'vue'
