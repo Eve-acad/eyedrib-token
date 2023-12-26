@@ -51,17 +51,20 @@
           <div>SOLANA</div>
         </div>
         <div class="gray-line"></div>
-        <div>We are the unofficial eyedriB website.</div>
+        <div>We are the unofficial token for the unofficial eyedriB website.</div>
         <div class="gray-line"></div>
         <div class="flex justify-between">
           <div>Public Name</div>
-          <div>solstice</div>
+          <div>eyedriB</div>
         </div>
         <div class="gray-line"></div>
         <div class="flex justify-between">
           <div>Address</div>
-          <div>abcd</div>
+          <div id="address" onclick="copyToClipboard()" data-full-address="sexy address" class="blue-text">Click to copy</div>
+
         </div>
+
+
         <div class="gray-line"></div>
         <div class="flex justify-between">
           <div>FDMC</div>
@@ -70,12 +73,12 @@
         <div class="gray-line"></div>
         <div class="flex justify-between">
           <div>Max Total Supply</div>
-          <div>9,999,993,982.4</div>
+          <div>100,000,000</div>
         </div>
         <div class="gray-line"></div>
         <div class="flex justify-between">
           <div>Holders</div>
-          <div>1,132</div>
+          <div>26,000</div>
         </div>
         <div class="gray-line"></div>
       </div>
@@ -90,49 +93,28 @@
         </div>
         <div class="flex justify-between">
           <div>Top 10 holders</div>
-          <div>60.95%</div>
+          <div>10.95%</div>
         </div>
         <div class="gray-line"></div>
         <div class="flex justify-between">
           <div>24h volume</div>
-          <div>$714.6K</div>
-        </div>
-        <div class="gray-line"></div>
-        <div class="flex justify-between">
-          <div>24h trades</div>
-          <div>$1.83k</div>
+          <div>$914.6K</div>
         </div>
         <div class="gray-line"></div>
         <div class="flex justify-between">
           <div>24h traders</div>
-          <div>813</div>
+          <div>18130</div>
         </div>
         <div class="gray-line"></div>
         <div class="flex justify-between">
           <div>24h views</div>
-          <div>23.28k</div>
+          <div>76.28k</div>
         </div>
-        <div class="gray-line"></div>
-        <div class="flex justify-between">
-          <div>Unique views</div>
-          <div>10.77K</div>
-        </div>
-        <div class="gray-line"></div>
-        <div class="flex justify-between">
-          <div>Watchers</div>
-          <div>121</div>
-        </div>
-        <div class="gray-line"></div>
-        <div class="flex justify-between">
-          <div>Markets</div>
-          <div>1</div>
-        </div>
-        <div class="gray-line"></div>
       </div>
     </div>
 
     <div class="h-[500px] lg:min-h-screen w-full">
-      <div class="tradingview-widget-container" ref="container" :style="{ height: '100%', width: '100%' }">
+      <div class="tradingview-widget-container" ref="container" :style="{ height: '96%', width: '100%' }">
         <div class="tradingview-widget-container__widget" :style="{ height: 'calc(100% - 32px)', width: '100%' }"></div>
       </div>
     </div>
@@ -149,7 +131,7 @@
         </div>
         <div class="p-2 flex justify-between bg-gray-light rounded-md">
           <div class="flex items-center gap-4">
-            <div>sol</div>
+            <div>SOL</div>
             <img src="@/assets/dropdown.png" class="w-4 h-4" />
           </div>
           <div class="flex flex-col gap-2 items-end">
@@ -164,13 +146,14 @@
         </div>
         <img src="@/assets/dropdown.png" class="w-4 h-4 mx-auto" />
         <div class="flex items-center gap-4 ml-2">
-          <div>USDC</div>
+          <div>SOL</div>
           <img src="@/assets/dropdown.png" class="w-4 h-4" />
         </div>
-        <center><a class="button-scale"><button class="border text-center border-orange-primary text-orange-primary px-20 py-2 rounded-md">
-          Buy $eyedriB
-        </button></a></center>
-        <div class="text-center">Powered by Jupiter</div>
+        <center><a class="button-scale"><button
+              class="border text-center border-orange-primary text-orange-primary px-20 py-2 rounded-md">
+              Buy $eyedriB
+            </button></a></center>
+        <div class="text-center">Powered by eyedriB</div>
       </div>
 
       <div class="flex flex-col bg-gray-primary rounded-lg gap-2 p-2 lg:w-[300px]">
@@ -194,22 +177,22 @@
           <div class="flex gap-3 items-center">
             <img src="@/assets/dropdown.png" class="w8 h-8">
             <div class="flex flex-col gap-0.5">
-              <div class="text-white">Ubi</div>
-              <div>Launch on <span class="text-white">Daostarter</span></div>
+              <div class="text-white">eyedriB</div>
+              <div>Launch on <span class="text-white">eyedriB</span></div>
             </div>
           </div>
           <div class="flex gap-3 items-center">
             <img src="@/assets/dropdown.png" class="w8 h-8">
             <div class="flex flex-col gap-0.5">
-              <div class="text-white">Farcana</div>
-              <div>Launch on <span class="text-white">Seedify</span></div>
+              <div class="text-white">SBF</div>
+              <div>Stay in <span class="text-white">New york federal prison</span></div>
             </div>
           </div>
           <div class="flex gap-3 items-center">
             <img src="@/assets/dropdown.png" class="w8 h-8">
             <div class="flex flex-col gap-0.5">
-              <div class="text-white">Velvet capital (NOT IDO)</div>
-              <div>Launch on <span class="text-white">Poolz</span></div>
+              <div class="text-white">Solana</div>
+              <div>Going to <span class="text-white">500USD</span></div>
             </div>
           </div>
         </div>
@@ -218,7 +201,6 @@
   </div>
 </template>
 <style scoped>
-
 .button-scale button {
   transition: transform 0.3s ease;
   /* Animation duration and style */
@@ -228,10 +210,36 @@
   transform: scale(1.05);
   /* Scale up by 10% on hover */
 }
+
+.blue-text {
+  color: rgb(0, 217, 255); /* Initial color */
+  transition: color 0.1s ease; /* Transition effect for the color property */
+  cursor: default; /* Default cursor is the arrow */
+  user-select: none; /* Prevents text from being selected */
+}
+
+.blue-text:hover {
+  color: rgb(0, 149, 175); /* Color on hover */
+}
+
 </style>
 <script setup lang="ts">
 import HeaderComponent from '@/components/HeaderComponent.vue'
 import { onMounted, ref } from 'vue'
+const copyToClipboard = (): void => {
+  const el = document.getElementById('address');
+  const fullAddress = el ? el.getAttribute('data-full-address') : '';
+
+  if (fullAddress) {
+    navigator.clipboard.writeText(fullAddress)
+      .then(() => alert('Address copied to clipboard!'))
+      .catch(err => console.error('Failed to copy text: ', err));
+  }
+}
+
+// Attach the function to the window object to make it accessible in the HTML onclick attribute
+(window as any).copyToClipboard = copyToClipboard;
+
 
 
 
