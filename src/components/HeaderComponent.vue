@@ -18,7 +18,7 @@
     <div class="flex gap-4 items-center">
       <input type="text" class="border outline-none border-gray-500 bg-black px-2 py-2 rounded-md hidden lg:block"
         placeholder="Search for Tokens, Markets, Traders..." />
-      <img src="@/assets/search.png" class="w-10 h-10 lg:hidden" />
+
       <a href="#" class="hover-underline">
         <div class="hidden lg:block">Solscan</div>
       </a>
