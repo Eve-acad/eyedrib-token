@@ -184,7 +184,7 @@
             <img src="@/assets/dropdown.png" class="w8 h-8">
             <div class="flex flex-col gap-0.5">
               <div class="text-white">SBF</div>
-              <div>Locked in <span class="text-white">New york federal prison</span></div>
+              <div>Locked in <span class="text-white">New York federal prison</span></div>
             </div>
           </div>
           <div class="flex gap-3 items-center">

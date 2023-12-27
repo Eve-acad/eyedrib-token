@@ -26,9 +26,9 @@
         <div class="hidden lg:block">Rugchecker</div>
       </a>
       <a href="#" class="hover-underline">
-        <div class="hidden lg:block">eyedriB</div>
+        <div class="hidden lg:block">Birdeye</div>
       </a>
-      <a href="#" class="hover-underline">
+      <a href="https://twitter.com/eyedribcoin" class="hover-underline">
         <div class="hidden lg:block">Twitter</div>
       </a>
       <a href="https://t.me/eyedriB" class="hover-underline">
