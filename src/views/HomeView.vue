@@ -87,7 +87,7 @@
           <div>Safety check</div>
           <div class="border flex gap-1 items-center px-3 py-1">
             <div>24h</div>
-            <img src="@/assets/dropdown.png" class="w4 h-4" />
+            <img src="@/assets/triangle.png" class="w4 h-4" />
           </div>
         </div>
         <div class="flex justify-between">
@@ -131,7 +131,7 @@
         <div class="p-2 flex justify-between bg-gray-light rounded-md">
           <div class="flex items-center gap-4">
             <div>SOL</div>
-            <img src="@/assets/dropdown.png" class="w-4 h-4" />
+            <img src="@/assets/triangle.png" class="w-4 h-4" />
           </div>
           <div class="flex flex-col gap-2 items-end">
             <div>0.00</div>
@@ -143,10 +143,10 @@
             </div>
           </div>
         </div>
-        <img src="@/assets/dropdown.png" class="w-4 h-4 mx-auto" />
+        <img src="@/assets/triangle.png" class="w-4 h-4 mx-auto" />
         <div class="flex items-center gap-4 ml-2">
           <div>SOL</div>
-          <img src="@/assets/dropdown.png" class="w-4 h-4" />
+          <img src="@/assets/triangle.png" class="w-4 h-4" />
         </div>
         <center><a class="button-scale"><button
               class="border text-center border-orange-primary text-orange-primary px-20 py-2 rounded-md">
@@ -160,7 +160,7 @@
           <div>Watchlist</div>
           <div class="border flex gap-1 items-center px-3 py-1">
             <div>Tokens</div>
-            <img src="@/assets/dropdown.png" class="w4 h-4" />
+            <img src="@/assets/triangle.png" class="w4 h-4" />
           </div>
         </div>
         <div class="text-center">No data</div>
@@ -169,26 +169,26 @@
       <div class="flex flex-col bg-gray-primary rounded-lg gap-2 p-2 lg:w-[300px]">
         <div class="flex justify-between items-center">
           <div>Upcoming deals</div>
-          <img src="@/assets/dropdown.png" class="w4 h-4" />
+          <img src="@/assets/triangle.png" class="w4 h-4" />
         </div>
         <div class="gray-line"></div>
         <div class="flex flex-col gap-4">
           <div class="flex gap-3 items-center">
-            <img src="@/assets/dropdown.png" class="w8 h-8">
+            <img src="@/assets/triangle.png" class="w8 h-8">
             <div class="flex flex-col gap-0.5">
               <div class="text-white">eyedriB</div>
               <div>Launch <span class="text-white">eyedriB</span></div>
             </div>
           </div>
           <div class="flex gap-3 items-center">
-            <img src="@/assets/dropdown.png" class="w8 h-8">
+            <img src="@/assets/triangle.png" class="w8 h-8">
             <div class="flex flex-col gap-0.5">
               <div class="text-white">SBF</div>
               <div>Locked in <span class="text-white">New York federal prison</span></div>
             </div>
           </div>
           <div class="flex gap-3 items-center">
-            <img src="@/assets/dropdown.png" class="w8 h-8">
+            <img src="@/assets/triangle.png" class="w8 h-8">
             <div class="flex flex-col gap-0.5">
               <div class="text-white">Solana</div>
               <div>Going to <span class="text-white">500USD</span></div>
