@@ -23,7 +23,7 @@
     <img src="@/assets/dropdown.png" class="w4 h-4 mr-2" />
     <div class="text-white mr-10">-5% NICO/SOL</div>
     <img src="@/assets/dropup.png" class="w4 h-4 mr-2" />
-    <div class="text-white mr-10">+696969% MALAYSIA/SOL</div>
+    <div class="text-white mr-10">+696969% ANALOS/SOL</div>
     <img src="@/assets/dropup.png" class="w4 h-4 mr-2" />
     <div class="text-white mr-10">+1000% 100X/SOL</div>
     <img src="@/assets/dropdown.png" class="w4 h-4 mr-2" />
@@ -39,8 +39,8 @@
       <div class="flex flex-col bg-gray-primary rounded-lg gap-2 p-2 lg:w-[300px]">
         <div class="text-white">Overview</div>
         <div class="flex justify-between">
-          <div>Birdeye</div>
-          <div>$0.00248883</div>
+          <div>eyedriB</div>
+          <div>$0.0212024</div>
         </div>
         <div class="mt-3 mb-3">
           eyedriB equips degens with our crypto data tracking tool suite across meme & shitcoins on the Solana chain, helping them seize more 1000x opportunities.
@@ -50,7 +50,7 @@
           <div>SOLANA</div>
         </div>
         <div class="gray-line"></div>
-        <div>We are the unofficial token for the unofficial eyedriB website.</div>
+        <div>We are the unofficial official token for the official eyedriB website</div>
         <div class="gray-line"></div>
         <div class="flex justify-between">
           <div>Public Name</div>
@@ -59,7 +59,7 @@
         <div class="gray-line"></div>
         <div class="flex justify-between">
           <div>Address</div>
-          <div id="address" onclick="copyToClipboard()" data-full-address="sexy address" class="blue-text">Click to copy</div>
+          <div id="address" onclick="copyToClipboard()" data-full-address="sexy address - TBA" class="blue-text">Click to copy</div>
 
         </div>
 

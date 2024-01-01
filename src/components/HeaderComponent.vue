@@ -28,10 +28,10 @@
       <a href="#" class="hover-underline">
         <div class="hidden lg:block">Birdeye</div>
       </a>
-      <a href="https://twitter.com/eyedribcoin" class="hover-underline">
+      <a href="https://twitter.com/eyedribsol" class="hover-underline">
         <div class="hidden lg:block">Twitter</div>
       </a>
-      <a href="https://t.me/eyedriB" class="hover-underline">
+      <a href="https://t.me/eyedrib" class="hover-underline">
         <div class="hidden lg:block">Telegram</div>
       </a>
 
