@@ -72,7 +72,7 @@
         <div class="gray-line"></div>
         <div class="flex justify-between">
           <div>Max Total Supply</div>
-          <div>100,000,000</div>
+          <div>10,000,000</div>
         </div>
         <div class="gray-line"></div>
         <div class="flex justify-between">
