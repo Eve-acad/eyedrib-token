@@ -19,19 +19,19 @@
       <input type="text" class="border outline-none border-gray-500 bg-black px-2 py-2 rounded-md hidden lg:block"
         placeholder="Search for Tokens, Markets, Traders..." />
 
-      <a href="#" class="hover-underline">
+      <a href="https://solscan.io/token/HzudfEoJzoEiTLmzir1xmf6NCFC3sBNZJ8i9gpr9q9co" class="hover-underline">
         <div class="hidden lg:block">Solscan</div>
       </a>
-      <a href="#" class="hover-underline">
+      <a href="https://rugcheck.xyz/tokens/HzudfEoJzoEiTLmzir1xmf6NCFC3sBNZJ8i9gpr9q9co" class="hover-underline">
         <div class="hidden lg:block">Rugchecker</div>
       </a>
-      <a href="#" class="hover-underline">
+      <a href="https://birdeye.so/token/HzudfEoJzoEiTLmzir1xmf6NCFC3sBNZJ8i9gpr9q9co?chain=solana" class="hover-underline">
         <div class="hidden lg:block">Birdeye</div>
       </a>
-      <a href="https://twitter.com/eyedribsol" class="hover-underline">
+      <a href="https://twitter.com/eyedribonsol" class="hover-underline">
         <div class="hidden lg:block">Twitter</div>
       </a>
-      <a href="https://t.me/eyedrib" class="hover-underline">
+      <a href="https://t.me/eyedriBsol" class="hover-underline">
         <div class="hidden lg:block">Telegram</div>
       </a>
 
