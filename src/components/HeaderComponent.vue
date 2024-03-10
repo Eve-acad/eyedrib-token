@@ -35,7 +35,7 @@
         <div class="hidden lg:block">Telegram</div>
       </a>
 
-      <a class="button-scale">
+      <a class="button-scale" href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=HzudfEoJzoEiTLmzir1xmf6NCFC3sBNZJ8i9gpr9q9co&fixed=in">
         <button class="border border-orange-primary text-orange-primary px-4 py-2 rounded-md hidden lg:block">
           Buy $eyedriB
         </button>
