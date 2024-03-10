@@ -59,7 +59,7 @@
         <div class="gray-line"></div>
         <div class="flex justify-between">
           <div>Address</div>
-          <div id="address" onclick="copyToClipboard()" data-full-address="sexy address - TBA" class="blue-text">Click to copy</div>
+          <div id="address" onclick="copyToClipboard()" data-full-address="HzudfEoJzoEiTLmzir1xmf6NCFC3sBNZJ8i9gpr9q9co" class="blue-text">Click to copy</div>
 
         </div>
 
